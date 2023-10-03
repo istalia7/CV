@@ -5,3 +5,8 @@ h1 {
 #section-gauche {
     color: blue;
 }
+
+/* mettre en flex */
+.flex {
+    display: flex;
+}
