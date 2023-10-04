@@ -31,8 +31,8 @@ h2 {
     color: #3a343e;
     text-align: center;
     position: relative;
-    left: 30em;
-    bottom: 27em;
+    left: 25em;
+    bottom: 29em;
     width: 30em;
     border: 15px solid #ff9e8e;
     background-color: #ff9e8e;
@@ -44,11 +44,134 @@ h2 {
     text-align: left;
     line-height: 7em;
     position: relative;
-    left: 35.1em; 
-    bottom: 33em;
+    left: 29.25em; 
+    bottom: 35.3em;
     width: 35.1em;
     border: 15px solid white; 
     background-color: white; 
+}
+
+#exppro {
+    color: #000610;
+    text-align: center;
+    position: relative;
+    left: 25em;
+    bottom: 34.3em;
+    width: 30em;
+    border: 15px solid #ff9e8e;
+    background-color: #ff9e8e;
+}
+
+#expprodesc {
+    color: #000610;
+    text-align: left;
+    line-height: 7em;
+    position: relative;
+    left: 29.25em; 
+    bottom: 41.3em;
+    width: 35.1em;
+    border: 15px solid white; 
+    background-color: white; 
+}
+
+#comp {
+    color: #000610;
+    text-align: center;
+    position: relative;
+    left: 25em;
+    bottom: 33.7em;
+    width: 30em;
+    border: 15px solid #ff9e8e;
+    background-color: #ff9e8e;
+}
+
+#compdesc {
+    color: #000610;
+    text-align: left;
+    line-height: 4.5em;
+    position: relative;
+    left: 29.25em; 
+    bottom: 40.8em;
+    width: 35.1em;
+    border: 15px solid white; 
+    background-color: white; 
+}
+
+#uni {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 102em;
+    width: 14em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
+}
+
+#hs {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 99.5em;
+    width: 16em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
+}
+
+#ms {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 96.5em;
+    width: 18em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
+}
+
+#cdf {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 90.5em;
+    width: 20em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
+}
+
+#sfg {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 87.8em;
+    width: 18.5em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
+}
+
+#ap {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 85.2em;
+    width: 16.5em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
+}
+
+#ce {
+    color: #000312;
+    text-align: left;
+    position: relative;
+    left: 26.5em;
+    bottom: 82.3em;
+    width: 18em;
+    border: 10px solid #26a6cb;
+    background-color: #26a6cb;
 }
 
 body {
