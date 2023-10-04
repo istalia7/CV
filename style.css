@@ -1,22 +1,54 @@
 h1 {
     color: #27a6c7;
     font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    left: 20px;
 }
 
 h2 {
     color: #dea98a;
     text-decoration: underline;
+    text-underline-offset: 10px;
 }
 
-#lefttext {
+.lefttext {
     color: #f6f7fc;
     line-height: 6mm;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 #list {
     color: #f6f7fc;
     list-style-type: square;
     line-height: 8mm;
+}
+
+#scolarite {
+    color: #3a343e;
+    text-align: center;
+    position: relative;
+    left: 30em;
+    bottom: 27em;
+    width: 30em;
+    border: 15px solid #ff9e8e;
+    background-color: #ff9e8e;
+   
+}
+
+#scoldesc {
+    color: #000610;
+    text-align: left;
+    line-height: 7em;
+    position: relative;
+    left: 35.1em; 
+    bottom: 33em;
+    width: 35.1em;
+    border: 15px solid white; 
+    background-color: white; 
 }
 
 body {
