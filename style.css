@@ -1,12 +1,24 @@
 h1 {
-    color:crimson;
+    color: #27a6c7;
+    font-weight: bold;
 }
 
-#section-gauche {
-    color: blue;
+h2 {
+    color: #dea98a;
+    text-decoration: underline;
 }
 
-/* mettre en flex */
-.flex {
-    display: flex;
+#lefttext {
+    color: #f6f7fc;
+    line-height: 6mm;
+}
+
+#list {
+    color: #f6f7fc;
+    list-style-type: square;
+    line-height: 8mm;
+}
+
+body {
+    background-color: #373741;
 }
