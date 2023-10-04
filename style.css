@@ -24,7 +24,7 @@ h2 {
 #list {
     color: #f6f7fc;
     list-style-type: square;
-    line-height: 8mm;
+    line-height: 15mm;
 }
 
 #scolarite {
@@ -32,7 +32,7 @@ h2 {
     text-align: center;
     position: relative;
     left: 25em;
-    bottom: 29em;
+    bottom: 33em;
     width: 30em;
     border: 15px solid #ff9e8e;
     background-color: #ff9e8e;
@@ -45,7 +45,7 @@ h2 {
     line-height: 7em;
     position: relative;
     left: 29.25em; 
-    bottom: 35.3em;
+    bottom: 40em;
     width: 35.1em;
     border: 15px solid white; 
     background-color: white; 
@@ -56,7 +56,7 @@ h2 {
     text-align: center;
     position: relative;
     left: 25em;
-    bottom: 34.3em;
+    bottom: 38.8em;
     width: 30em;
     border: 15px solid #ff9e8e;
     background-color: #ff9e8e;
@@ -68,7 +68,7 @@ h2 {
     line-height: 7em;
     position: relative;
     left: 29.25em; 
-    bottom: 41.3em;
+    bottom: 46.6em;
     width: 35.1em;
     border: 15px solid white; 
     background-color: white; 
@@ -79,7 +79,7 @@ h2 {
     text-align: center;
     position: relative;
     left: 25em;
-    bottom: 33.7em;
+    bottom: 44.5em;
     width: 30em;
     border: 15px solid #ff9e8e;
     background-color: #ff9e8e;
@@ -91,7 +91,7 @@ h2 {
     line-height: 4.5em;
     position: relative;
     left: 29.25em; 
-    bottom: 40.8em;
+    bottom: 53.6em;
     width: 35.1em;
     border: 15px solid white; 
     background-color: white; 
@@ -102,7 +102,7 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 102em;
+    bottom: 105.9em;
     width: 14em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
@@ -113,7 +113,7 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 99.5em;
+    bottom: 103em;
     width: 16em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
@@ -124,7 +124,7 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 96.5em;
+    bottom: 100.3em;
     width: 18em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
@@ -135,7 +135,7 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 90.5em;
+    bottom: 94.8em;
     width: 20em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
@@ -146,8 +146,8 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 87.8em;
-    width: 18.5em;
+    bottom: 92em;
+    width: 17.5em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
 }
@@ -157,8 +157,8 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 85.2em;
-    width: 16.5em;
+    bottom: 89.3em;
+    width: 15.6em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
 }
@@ -168,11 +168,15 @@ h2 {
     text-align: left;
     position: relative;
     left: 26.5em;
-    bottom: 82.3em;
+    bottom: 86.5em;
     width: 18em;
     border: 10px solid #26a6cb;
     background-color: #26a6cb;
 }
+
+.checked {
+    color: orange;
+  }
 
 body {
     background-color: #373741;
