@@ -1,184 +1,91 @@
-h1 {
-    color: #27a6c7;
-    font-weight: bold;
-    font-size: 50px;
-    position: relative;
-    top: 5px;
-    left: 20px;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-template-areas: "left-column right-column";
+  width: 1200px;
+  height: 1000px;
+  margin: 100px;
+  justify-items: start;
 }
 
-h2 {
-    color: #dea98a;
-    border-bottom: 3px solid #dea98a;
-    padding-bottom: 5px;
-    width: 21.5%;
+.left-column {
+  grid-area: left-column;
+  background-color: #373741;
+}
+
+h1 {
+  color: #2aa4c9;
+  margin: 20px;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.sous-titres {
+  color: #eba277;
+  border-bottom: 3px solid #eba277;
+  margin: 7px;
 }
 
 .lefttext {
-    color: #f6f7fc;
-    line-height: 6mm;
-    position: relative;
-    top: 0px;
-    left: 0px;
+  color: white;
+  margin: 10px;
+  line-height: 25px;
 }
 
-#list {
-    color: #f6f7fc;
-    list-style-type: square;
-    line-height: 15mm;
+#leftlist {
+  color: white;
+  line-height: 35px;
 }
 
-#scolarite {
-    color: #3a343e;
-    text-align: center;
-    position: relative;
-    left: 25em;
-    bottom: 35em;
-    width: 30em;
-    border: 15px solid #ff9e8e;
-    background-color: #ff9e8e;
-   
+.right-column {
+  grid-area: right-column;
+  background-color: #373741;
+  display: grid;
+  padding: 5%;
+  grid-template-rows: auto;
+  padding-top: 12%;
 }
 
-#scoldesc {
-    color: #000610;
-    text-align: left;
-    line-height: 7em;
-    position: relative;
-    left: 29.25em; 
-    bottom: 42.3em;
-    width: 35.1em;
-    border: 15px solid white; 
-    background-color: white; 
+.topics {
+  display: grid;
+  background-color: #ff9e8e;
+  color: #3a343e;
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: large;
+  height: 50px;
 }
 
-#exppro {
-    color: #000610;
-    text-align: center;
-    position: relative;
-    left: 25em;
-    bottom: 40.8em;
-    width: 30em;
-    border: 15px solid #ff9e8e;
-    background-color: #ff9e8e;
+.situation {
+  display: grid;
+  background-color: #26a6cb;
+  color: black;
+  text-align: left;
+  align-items: center;
+  padding: 10px;
+  font-weight: 700;
+  height: 25px;
 }
 
-#expprodesc {
-    color: #000610;
-    text-align: left;
-    line-height: 7em;
-    position: relative;
-    left: 29.25em; 
-    bottom: 49em;
-    width: 35.1em;
-    border: 15px solid white; 
-    background-color: white; 
+.desc {
+  display: grid;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  align-items: center;
+  padding: 20px;
 }
 
-#comp {
-    color: #000610;
-    text-align: center;
-    position: relative;
-    left: 25em;
-    bottom: 46.5em;
-    width: 30em;
-    border: 15px solid #ff9e8e;
-    background-color: #ff9e8e;
-}
-
-#compdesc {
-    color: #000610;
-    text-align: left;
-    line-height: 4.5em;
-    position: relative;
-    left: 29.25em; 
-    bottom: 55.7em;
-    width: 35.1em;
-    border: 15px solid white; 
-    background-color: white; 
-}
-
-#uni {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 107.5em;
-    width: 14em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
-}
-
-#hs {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 105em;
-    width: 16em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
-}
-
-#ms {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 102em;
-    width: 18em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
-}
-
-#cdf {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 96.9em;
-    width: 20em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
-}
-
-#sfg {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 94em;
-    width: 17.5em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
-}
-
-#ap {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 91.3em;
-    width: 15.6em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
-}
-
-#ce {
-    color: #000312;
-    text-align: left;
-    position: relative;
-    left: 26.5em;
-    bottom: 88.5em;
-    width: 18em;
-    border: 10px solid #26a6cb;
-    background-color: #26a6cb;
+.comp {
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  align-items: center;
+  padding: 20px;
+  line-height: 30px;
 }
 
 .checked {
-    color: orange;
-  }
-
-body {
-    background-color: #373741;
+  color: orange;
 }
