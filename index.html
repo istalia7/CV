@@ -1,99 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Mon CV</title>
-</head>
-<body>
-    <h1>PERROTIN <br> ALEXIS</h1> <br>
-    
-     <div class="lefttext">
-    <h2>PROFIL</h2> 
-    <p>
-        Je suis à la recherche d'une <br> 
-        formation pour devenir <br> 
-        développeur d'application ou <br> 
-        développeur web</p>
-    
-    <h2>COORDONÉES</h2>
-    <p>
-       <img src="https://simpleicon.com/wp-content/uploads/phone-symbol-2.svg" width="1.5%" height="1.5%" align="center"> Téléphone : 06 41 97 99 96 <br>
-       <img src="https://icon-library.com/images/mail-icon-black-and-white/mail-icon-black-and-white-16.jpg" width="1.5%" height="1.5%" align="center"> E-mail : alexis.perrotin02@gmail.com <br>
-       <img src="https://cdn.iconscout.com/icon/free/png-256/free-address-1448067-1223812.png?f=webp" width="1.5%" height="1.5%" align="center"> Adresse : 21 Rue Yitzhak Rabin, Beaurains</p>
-
-    <h2>LOISIRS</h2>
-    <p>
-       <ul id="list">
-        <li>Jeux Vidéos &nbsp; <img src="https://www.waca.associates/en/wp-content/uploads/2021/02/gaming-1.png" width="3%" height="3%" align="center"> </li>
-        <li>Mangas &nbsp;<img src="https://marketplace.canva.cn/wyybQ/MAEwoOwyybQ/1/tl/canva-MAEwoOwyybQ.png" width="3%" height="3%" align="center"> </li> 
-        <li>Anglais &nbsp; <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png" width="3%" height="3%" align="center"> </li> 
-       </ul>
-    </p>
-     </div>
-
-     <div>
-    <h3 id="scolarite">
-        SCOLARITÉ
-    </h3>
-    <h4 id="scoldesc">
-        <ul>
-        <li>1ère année de licence en Langues Étrangères approfondis</li>
-        <li>BAC S avec mention européenne, spécialité SVT</li>
-        <li>Brevet des collèges</li>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left part of the CV -->
+      <div class="left-column">
+        <h1>
+          PERROTIN <br />
+          ALEXIS
+        </h1>
+        <h3 class="sous-titres">PROFIL</h3>
+        <p class="lefttext">
+          Je souhaite devenir développeur web <br />
+          ou développeur d'applications
+        </p>
+        <h3 class="sous-titres">COORDONÉES</h3>
+        <p class="lefttext">
+          <img
+            src="https://simpleicon.com/wp-content/uploads/phone-symbol-2.svg"
+            width="10%"
+            height="10%"
+            align="center"
+          />
+          Téléphone : 06 41 97 99 96 <br />
+          <img
+            src="https://icon-library.com/images/mail-icon-black-and-white/mail-icon-black-and-white-16.jpg"
+            width="10%"
+            height="10%"
+            align="center"
+          />
+          E-mail : alexis.perrotin02@gmail.com <br />
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-address-1448067-1223812.png?f=webp"
+            width="10%"
+            height="10%"
+            align="center"
+          />
+          Adresse : 21 Rue Yitzhak Rabin Beaurains
+        </p>
+        <h3 class="sous-titres">LOISIRS</h3>
+        <ul id="leftlist">
+          <li>
+            Jeux Vidéos
+            <img
+              src="https://www.waca.associates/en/wp-content/uploads/2021/02/gaming-1.png"
+              width="20%"
+              height="20%"
+              align="center"
+            />
+          </li>
+          <li>
+            Mangas
+            <img
+              src="https://marketplace.canva.cn/wyybQ/MAEwoOwyybQ/1/tl/canva-MAEwoOwyybQ.png"
+              width="20%"
+              height="20%"
+              align="center"
+            />
+          </li>
+          <li>
+            Anglais
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png"
+              width="20%"
+              height="20%"
+              align="center"
+            />
+          </li>
         </ul>
-    </h4>
-     </div>
+      </div>
+      <!-- Right part of the CV -->
+      <div class="right-column">
+        <div class="topics">SCOLARITÉ</div>
+        <div class="situation">2020-2021 &nbsp; Université d'Artois</div>
+        <div class="desc">
+          <li>1ère année de licence en Langues Étrangeres approfondis</li>
+        </div>
+        <div class="situation">2017-2020 &nbsp; Lycée Guy Mollet</div>
+        <div class="desc">
+          <li>BAC S avec mention européenne spécialité SVT</li>
+        </div>
 
-     <div>
-    <h3 id="exppro">
-        EXPÉRIENCE PROFESSIONEL
-     </h3>    
-    <h4 id="expprodesc">
-        <ul>
-        <li>Stage de découverte, nettoyage d'aquariums/cages, mise en rayon</li>
-        <li>Stage de découverte, vente, mise en rayon, réception de marchandises</li>
-        <li>Stage de découverte, réinitialisation d'ordinateurs et mise en rayon</li>
-        <li>Stage d'observation</li>
-        </ul>
-    </h4>
-     </div>
-
-     <div>
-    <h3 id="comp">
-        COMPÉTENCES
-     </h3>
-    <h4 id="compdesc">
-        Anglais &nbsp; <span class="fa fa-star checked"></span> <span class="fa fa-star checked"> </span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <br>
-        Maitrise d'outils informatiques (Photoshop/Libre Office) &nbsp; <span class="fa fa-star checked"></span> <span class="fa fa-star checked"> </span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <br>
-        Démonter/Remonter une tour d'ordinateur &nbsp; <span class="fa fa-star checked"></span> <span class="fa fa-star checked"> </span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span>
-    </h4>
-     </div>
-
-     <div>
-    <h3 id="uni">
-        2020-2021 &nbsp; Université d'Artois
-     </h3>
-    <h3 id="hs">
-        2017-2020 &nbsp; Lycée Guy Mollet
-     </h3>
-    <h3 id="ms">
-        2013-2017 &nbsp; Collège Adam de la Halle
-     </h3>
-    <h3 id="cdf">
-        Juin 2022 &nbsp; &nbsp; Carrefour de la fleur, Achicourt
-     </h3>
-    <h3 id="sfg">
-        Novembre 2021 &nbsp; &nbsp; Shop for Geek, Arras
-     </h3>
-    <h3 id="ap">
-        Février 2022 &nbsp; &nbsp; Ami Pro, Beaurains
-     </h3>
-    <h3 id="ce">
-        Mai 2017 &nbsp; &nbsp; Cituation et Ensemble, Arras
-     </h3>
+        <div class="situation">2013-2017 &nbsp; Collège Adam de la Halle</div>
+        <div class="desc"><li>Brevet des collèges</li></div>
+        <div class="topics">EXPÉRIENCE PROFESSIONEL</div>
+        <div class="situation">
+          Juin 2022 &nbsp; Carrefour de la fleur, Achicourt
+        </div>
+        <div class="desc">
+          <li>Stage de découverte, nettoyage d'aquariums et cages</li>
+        </div>
+        <div class="situation">Novembre 2021 &nbsp; Shop for Geek, Arras</div>
+        <div class="desc">
+          <li>
+            Stage de découverte, vente, mise en rayon, réception de marchandises
+          </li>
+        </div>
+        <div class="situation">Février 2020 &nbsp; Ami Pro, Beaurains</div>
+        <div class="desc">
+          <li>
+            Stage de découverte, réinitialisation d'ordinateurs et mise en rayon
+          </li>
+        </div>
+        <div class="situation">
+          Mai 2017 &nbsp; Cituation et Ensemble, Arras
+        </div>
+        <div class="desc"><li>Stage d'observation</li></div>
+        <div class="topics">COMPÉTENCES</div>
+        <div class="comp">
+          Anglais <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"> </span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span> <br />
+          Maitrise d'outils informatiques (Photoshop/Libre Office)
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"> </span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span> <span class="fa fa-star"></span>
+          <br />
+          Démonter/Remonter une tour d'ordinateur
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"> </span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
